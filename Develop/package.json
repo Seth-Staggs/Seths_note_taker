@@ -1,26 +1,17 @@
 {
-  "name": "Develop",
+  "name": "develop",
   "version": "1.0.0",
-  "description": "## Description",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Seth-Staggs/Seths_note_taker.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Seth-Staggs/Seths_note_taker/issues"
-  },
-  "homepage": "https://github.com/Seth-Staggs/Seths_note_taker#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "generate-unique-id": "^2.0.1",
-    "nodemon": "^2.0.6"
+    "generate-unique-id": "^2.0.1"
   }
 }
