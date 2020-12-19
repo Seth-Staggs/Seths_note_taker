@@ -66,7 +66,7 @@ const handleNoteSave = function () {
 const handleNoteDelete = function (event) {
   // prevents the click listener for the list from being called when the button inside of it is clicked
   event.stopPropagation();
-
+  console.log(event);
   const note = $(this).parent(".list-group-item").data();
 
   if (activeNote.id === note.id) {
@@ -126,7 +126,7 @@ const renderNoteList = (notes) => {
   if (notes.length === 0) {
     noteListItems.push(create$li("No saved Notes", false));
   }
-
+  console.log(notes);
   notes.forEach((note) => {
     const $li = create$li(note.title).data(note);
     noteListItems.push($li);
